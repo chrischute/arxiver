@@ -1,0 +1,10 @@
+name: arxiver
+channels:
+  - defaults
+dependencies:
+  - pip=10.0
+  - python=3.6
+  - pip:
+    - arxiv==0.2.2
+    - requests==2.19.1
+    - urllib3==1.23
